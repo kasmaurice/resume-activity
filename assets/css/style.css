@@ -1,37 +1,55 @@
-                    /* remove this code and add your own! */
-                
+/* remove this code and add your own! */
+
 body {
-                    font-family: url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;800&display=swap');
-                    height: 500px;
-                    width: 600px;
-                }
-                
+  font-family: url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;800&display=swap");
+  height: 500px;
+  width: 600px;
+}
+
 .greeting {
-    color: purple;
-    font-size: 30px;
-    }
-                
+  color: purple;
+  font-size: 30px;
+  text-align: center;
+}
+
 h3 {
-    color: darkblue;
-    font-size: 20;
- }
-                
-article {
-    text-align: center;
-    margin: 20px;
-    width: 400px
-                }
-                
- .myInfo {
-    background-color: seashell;
-    background-position: right;
-    background-repeat: no-repeat;
-    color: black;
-    width: 200px;
-    background-size: 200px 200px;
-    float: right;
-    
+  color: gainsboro;
+  font-size: 20;
+}
+
+.main {
+  display: flex;
+  background-image: url('/assets/image/body.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100% 99%;
+}
+.body-container {
+  display: flex;
+  /*flex-direction: row;*/
+  /*width: 300px;*/
+  height: auto;
+  flex-wrap: wrap;
+  color: cornsilk;
+}
+.career {
+  text-align: center;
+}
+.experience {
+  text-align: center;
+}
+.myInfo {
+  background-image: url('/assets/image/side.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  color: black;
+  background-size: 99% 99%;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+
 #pic {
-    width: 150px;
-    height: 150px;
-    float: right;                    }
+  width: 200px;
+  height: 150px;
+}
