@@ -1,5 +1,37 @@
-/* remove this code and add your own! */
+                    /* remove this code and add your own! */
+                
+body {
+                    font-family: url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;800&display=swap');
+                    height: 500px;
+                    width: 600px;
+                }
+                
 .greeting {
-    color: green;
+    color: purple;
     font-size: 30px;
-  }
+    }
+                
+h3 {
+    color: darkblue;
+    font-size: 20;
+ }
+                
+article {
+    text-align: center;
+    margin: 20px;
+    width: 400px
+                }
+                
+ .myInfo {
+    background-color: seashell;
+    background-position: right;
+    background-repeat: no-repeat;
+    color: black;
+    width: 200px;
+    background-size: 200px 200px;
+    float: right;
+    
+#pic {
+    width: 150px;
+    height: 150px;
+    float: right;                    }
