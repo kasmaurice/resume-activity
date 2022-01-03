@@ -1,7 +1,7 @@
 /* remove this code and add your own! */
 
 body {
-  font-family: url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;800&display=swap");
+  font-family: url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap");
   height: 500px;
   width: 600px;
 }
@@ -13,13 +13,13 @@ body {
 }
 
 h3 {
-  color: gainsboro;
+  color: black;
   font-size: 20;
 }
 
 .main {
   display: flex;
-  background-image: url('/assets/image/body.png');
+  background-image: url('/assets/image/cards.jpg');
   background-repeat: no-repeat;
   background-position: center;
   background-size: 100% 99%;
@@ -30,14 +30,10 @@ h3 {
   /*width: 300px;*/
   height: auto;
   flex-wrap: wrap;
-  color: cornsilk;
-}
-.career {
+  color: orange;
   text-align: center;
 }
-.experience {
-  text-align: center;
-}
+
 .myInfo {
   background-image: url('/assets/image/side.png');
   background-position: center;
@@ -52,4 +48,10 @@ h3 {
 #pic {
   width: 200px;
   height: 150px;
+}
+
+p {
+  font-family: url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap");
+  font-size: 16px;
+  font-weight: bold;
 }
