@@ -19,7 +19,7 @@ h3 {
 
 .main {
   display: flex;
-  background-image: url('/assets/image/cards.jpg');
+  background-image: url('/resume-activity/assets/image/body.png');
   background-repeat: no-repeat;
   background-position: center;
   background-size: 100% 99%;
@@ -35,7 +35,7 @@ h3 {
 }
 
 .myInfo {
-  background-image: url('/assets/image/side.png');
+  background-image: url('/resume-activity/assets/image/side.png');
   background-position: center;
   background-repeat: no-repeat;
   color: black;
