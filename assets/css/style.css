@@ -19,7 +19,7 @@ h3 {
 
 .main {
   display: flex;
-  background-image: url('/resume-activity/assets/image/body.png');
+  background-image: url('https://i.ibb.co/0c030FY/body.png');
   background-repeat: no-repeat;
   background-position: center;
   background-size: 100% 99%;
@@ -35,7 +35,7 @@ h3 {
 }
 
 .myInfo {
-  background-image: url('/resume-activity/assets/image/side.png');
+  background-image: url('https://i.ibb.co/Cn9Ht03/side.png');
   background-position: center;
   background-repeat: no-repeat;
   color: black;
